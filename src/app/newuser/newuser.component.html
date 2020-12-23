@@ -1,0 +1,18 @@
+<form [formGroup]="userprofile" (ngSubmit)="postData(userprofile.value)">
+  <div>
+    <input type="text" formControlName="name" placeholder="name" />
+  </div>
+  <div>
+    <input type="text" formControlName="email" placeholder="email" />
+  </div>
+  <div>
+    <input type="text" formControlName="gender" placeholder="gender" />
+  </div>
+  <div>
+    <input type="date" formControlName="bdate" placeholder="birthdate" />
+  </div>
+
+  <div>
+    <button type="submit" [disabled]="!userprofile.valid">Submit</button>
+  </div>
+</form>

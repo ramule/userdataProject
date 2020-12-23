@@ -1,0 +1,25 @@
+{
+  "profiles": [
+    {
+      "name": "pooja",
+      "email": "s@gmail.com",
+      "gender": "fe",
+      "bdate": "2020-12-04",
+      "id": 658
+    },
+    {
+      "name": "vimal",
+      "email": "v@gmail.com",
+      "gender": "female",
+      "bdate": "2020-12-18",
+      "id": 659
+    },
+    {
+      "name": "ss",
+      "email": "s@gmail.com",
+      "gender": "f",
+      "bdate": "2020-12-11",
+      "id": 660
+    }
+  ]
+}
